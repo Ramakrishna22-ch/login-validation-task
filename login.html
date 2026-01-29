@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Login</h2>
+
+  <form onsubmit="return validateLogin()">
+    <input type="text" id="username" placeholder="Username">
+    <span id="userError" class="error"></span>
+
+    <input type="password" id="password" placeholder="Password">
+    <span id="passError" class="error"></span>
+
+    <button type="submit">Login</button>
+  </form>
+
+  <p class="link">
+    <a href="forgot.html">Forgot Password?</a>
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
